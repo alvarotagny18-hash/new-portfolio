@@ -1,32 +1,158 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Alvaro Tagny - Portfolio</title>
 </head>
 <body>
+
    <header>
-    <h4>Mr-Taf</h4>
-    <nav>
-        <ul>
-            <li><a href="#"> A propos</a></li>
-            <li><a href="#">Compétences</a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-        </ul>
-    </nav>
-   </header>
-   <main>
-    <section>
-        <p></p>
-        <h1>TAGNY</h1>
-        <h1><em>Fred Alvaro</em></h1>
-        <p>Je suis Alvaro , un étudiant en informatique fondamentale à l'univeersité de Yaoundé 1. <br>
-        je suis developpeur web junior dans une start-up de la place au nom de Alva-Tech</p>
+        <span>Mr-Taf</span>
+        <nav>
+            <ul>
+               <li><a href="#apropos"> A propos</a></li>
+               <li><a href="#competences">Compétences</a></li>
+               <li><a href="#parcours">Parcours</a></li>
+               <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+   
+  
+    
+        <p>Developpeur Web - Etudiant en informatique</p>
+        <h1>TAGNY <br> <em>Fred Alvaro</em></h1>
         
+        <p>Je suis Alvaro , un étudiant en informatique fondamentale à l'univeersité de Yaoundé 1. <br>
+        je suis passionné par l'expérience web moderne. Je trace donc ma route vers le developpement front-end</p>
+
+        <p><a href="#contact">Me contacter</a></p>
+
+        <img src="Sans titre.jpeg" alt="ma photo">
+        
+    </header>
+
+    <main>
+
+    <section id="A propos">
+        <p>À propos</p>
+
+        <h2>Qui suis-je ?</h2>
+
+        <p>je suis étudiant en première année d'informatique,animé par une vraie <br>
+             curiosité pour le web et les technologies. Je m'interesse particulièrement à <br>
+            la conception d'interface élégantes à l'expérience utlisateur et aux bonnes <br>
+            pratique du developpement front-end.
+        </p>
+        <p>
+            Mon objectif: devenir developpeur front-end capable de transformer  <br>
+            des idées en expériences digitales mémorables.
+        </p>
+
+        <div>
+            
+                
+                <p>1<sub>ère</sub>année d'informatique</p>
+                <p>3+ technologies</p>
+
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentcolor" class="bi bi-ininity" viewBox="0 0 16">
+                        <path d="M5.68 5.792 7.345 7.75 5.681 9.708a2.75 2.75 0 1 1 0-3.916ZM8 6.978 6.416 5.113l-.014-.015a3.75 3.75 0 1 0 0 5.304l.014-.015L8 8.522l1.584 1.865.014.015a3.75 3.75 0 1 0 0-5.304l-.014.015zm.656.772 1.663-1.958a2.75 2.75 0 1 1 0 3.916z"/>
+
+                    </svg>
+                    envie d'apprendre
+                </p>
+           
+        </div>
+
     </section>
+
+    <section id="Compétences">
+        <p>COMPETENCES</p>
+        <h2>
+            Ce que je sais faire
+        </h2>
+
+        <article>
+            <h3>HTML</h3>
+            <p>Strutures sémantiques, accéssibilités, bonne pratiques</p>
+        </article>
+
+        <article>
+            <h3>Git</h3>
+            <p>Versionning, branches, gestion de l'historique.</p>
+        </article>
+
+        <article>
+            <h3>GitHub</h3>
+            <p>Collaboration, pull requests, hebergement de projet</p>
+        </article>
+
+        <article>
+            <h3>Travail en équipe</h3>
+            <p>Communication, organisation, méthode agiles</p>
+        </article>
+
+        <article>
+            <h3>Résolution de problemes</h3>
+            <p>Analyse, décomposition, logique algorithmique</p>
+        </article>
+    </section>
+
+    <section id="Parcours">
+        <p>PARCOURS</p>
+        <h1>MOn chemin</h1>
+
+        <div>
+            <p>DIPLOME</p>
+            <h3>Baccalauréat scientifique</h3>
+            <p>Obtention du Baccalauréat avec spécialité scientifique, premier pas vers l'informatique</p>
+        </div>
+        <div>
+            <p>FORMATION</p>
+            <h3>L1 informatique</h3>
+            <p>Premiere année de licence informatique, initiation à l'algorithmique, aux langages et aux systèmes</p>
+        </div>
+        <div>
+            <p>EN COURS</p>
+            <h3>Formation en developpement web</h3>
+            <p>Apprentissage du HTML, CSS, et des bases du developpement front-end moderne.</p>
+        </div>
+    </section>
+
+    <section id="contacter">
+        <p>CONTACT</p>
+            <h1>Travaillons  <br>
+                <em>ensemble</em>
+            </h1>
+            
+            <p>Une question, une idée de projet, ou simplement envie <br>
+                décharger ? N'hesitez pas à m'écrire.
+            </p>
+
+        <form>
+            <label for="name">Nom complet</label>
+            <input type="text" id="name">
+            <br>
+            <label for="email">Adresse Email</label>
+            <input type="email" id="email">
+            <br>
+            <label>MESSAGE</label>
+            <textarea name="message" id="message">Bonjour Alvaro, je voudrais, </textarea>
+            <br>
+            <button type="submit">Envoyer le message</button>
+        </form>
+    </section>
+
    </main>
+
+   <footer>
+       <span>Mr-Taf</span>
+       <p>&copy; 2026 - Alvaro Tagny - Tous droits réservées</p>
+       <p>
+        <a href="https://github.com/alvarotagny18-hash" target="_blank">GitHub</a> |
+        <a href="alvarotagny18@gmail.com">Email</a>
+       </p>
+   </footer>
 </body>
 </html>
